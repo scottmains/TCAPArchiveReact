@@ -1,0 +1,52 @@
+/* src/components/NavigationBar.css */
+
+.main-header {
+  width: 100%;
+  background-color: #f8f9fa;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  z-index: 1000;
+  top:0;
+}
+
+.nav-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+nav.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 750px;
+  width: 100%;
+  padding: 0.5rem 1rem;
+  position: relative;
+}
+
+.hamburger-menu {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  }
+  
+  .search{
+    background-color: transparent;
+    border: none;
+  }
+  
+  .logo {
+  text-align: center;
+  }
+  
+  .logo img {
+  height: 40px;
+  /* Adjust the logo size as necessary */
+  }
+
+  .show-dropdown
+  {
+    visibility: hidden;
+  }
+

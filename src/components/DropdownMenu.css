@@ -1,0 +1,42 @@
+/* src/components/DropdownMenu.css */
+
+.dropdown-container {
+  background-color: #f8f9fa;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  overflow: hidden;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  transform: translateX(-50%);
+  z-index: 1;
+}
+
+.dropdown-visible {
+  transform: scaleY(1);
+}
+
+.dropdown-menu-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.dropdown-menu-link {
+  display: block;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  color: #333;
+}
+
+.dropdown-menu-link:hover {
+  background-color: #eee;
+}
+
+.dropdown-menu-link-active {
+  background-color: #007bff;
+  color: #fff;
+}
